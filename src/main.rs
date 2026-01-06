@@ -299,7 +299,7 @@ fn main() -> Result<(), eframe::Error> {
 
     // 运行应用
     eframe::run_native(
-        "Rust 空文件创建工具v0.1.1 (DIY 固态群:115405294)",
+        "QuickSSDChecker v0.1.1 (DIY 固态群:115405294)",
         native_options,
         Box::new(|cc| {
             // 配置字体，添加中文字体支持

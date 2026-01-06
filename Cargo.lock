@@ -3,6 +3,19 @@
 version = 4
 
 [[package]]
+name = "QuickSSDChecker"
+version = "0.1.1"
+dependencies = [
+ "dirs",
+ "eframe",
+ "egui",
+ "embed-resource",
+ "rfd",
+ "winapi",
+ "winres",
+]
+
+[[package]]
 name = "ab_glyph"
 version = "0.2.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2210,19 +2223,6 @@ dependencies = [
  "wayland-protocols 0.32.10",
  "web-sys",
  "windows-sys 0.61.2",
-]
-
-[[package]]
-name = "rust_file_creator"
-version = "0.1.1"
-dependencies = [
- "dirs",
- "eframe",
- "egui",
- "embed-resource",
- "rfd",
- "winapi",
- "winres",
 ]
 
 [[package]]
