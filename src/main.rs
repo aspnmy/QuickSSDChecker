@@ -166,7 +166,7 @@ impl FileCreatorApp {
 impl eframe::App for FileCreatorApp {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
         egui::CentralPanel::default().show(ctx, |ui| {
-            ui.heading("📁 空文件创建工具,另类快速鉴别扩容盘，项目地址：https://github.com/aspnmy/rust_file_creator");
+            ui.heading("📁 空文件创建工具,另类快速鉴别扩容盘 https://github.com/aspnmy/QuickSSDChecker");
             ui.heading("此工具github上开源免费如果你付费购买就是上当了");
             ui.heading("除了跑圈你还可以这样：向指定要测试的固态路径写入一个小于标称容量1GB的空文件，写入成功为足量，此方法无需等待跑圈");
             ui.heading("常见标称/足量之间关系：2TB/1800GB、1TB/890GB、512GB/450GB、256GB/225GB、128GB/112GB");
