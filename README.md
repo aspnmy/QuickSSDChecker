@@ -85,7 +85,7 @@ rust_file_creator/
 ## 📞 联系方式
 
 - DIY 固态群：115405294
-- 项目地址：GitHub 开源免费
+- 项目地址：[GitHub 开源免费](https://github.com/aspnmy/rust_file_creator)
 
 ## ⚠️ 注意事项
 
